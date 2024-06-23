@@ -68,10 +68,30 @@ aside {
   grid-row: 1 / 3;
   background-color: var(--secondary-bg-color);
   color: var(--secondary-font-color);
+  font-size: 0.9rem;
+  font-weight: bold;
   display: grid;
   place-content: start;
   gap: 48px;
   padding: 12px;
+}
+
+.aside-row {
+  display: flex;
+  align-items: center;
+}
+
+.aside-row img {
+  height: 1.2rem;
+  width: 2.5rem;
+}
+
+h2.aside-row {
+  font-size: 1.2rem;
+}
+
+h2.aside-row img {
+  height: 2rem;
 }
 
 aside ul li {
