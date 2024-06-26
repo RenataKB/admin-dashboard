@@ -270,3 +270,15 @@ footer {
   flex-direction: column;
   gap: 6px;
 }
+
+img.alt-bgcolor1 {
+  background-color: #67CDF8;
+}
+
+img.alt-bgcolor2 {
+  background-color: #D2675D;
+}
+
+img.alt-bgcolor3 {
+  background-color: #5ACC99;
+}
